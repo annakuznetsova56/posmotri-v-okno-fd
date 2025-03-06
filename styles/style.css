@@ -291,7 +291,7 @@ ol {
 }
 
 .content__video-card-description {
-  line-height: 16.2px;
+  line-height: 16.2px; 
   line-clamp: 4;
 }
 
