@@ -14,6 +14,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
+  justify-content: center;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
@@ -141,6 +142,7 @@ ol {
 
 .search-form__pseudo-checkbox {
   border: 1px solid #fff;
+  display: flex;
   align-self: center;
   align-items: center;
   justify-content: center;
@@ -164,6 +166,7 @@ ol {
   content: "";
   min-inline-size: 15px;
   min-block-size: 15px;
+  display: block;
   background-color: #fff;
 }
 
@@ -247,6 +250,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__card-link:focus {
@@ -255,9 +259,11 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
-.content__card-link_current {
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
